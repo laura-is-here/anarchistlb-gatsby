@@ -8,7 +8,7 @@ export default ({ data }) => {
   return (
     <Layout>
       <SEO title="Events" />
-      <ul className="padding--lg    ul-no-bullets    grid-container">
+      <ul className="ul-no-bullets    grid-container">
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <li key={node.id} className="padding--lg    bg--black">
             <h2>

@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -10,7 +10,7 @@ export default function Template({ data }) {
     return (
       <Layout>
         <SEO title={frontmatter.title} />
-        <div className="flex-container    container-inner">
+        <div className="flex-container    container-narrow">
           <div className="flex-item--lg">
             <h1>
               {frontmatter.headline}
@@ -52,6 +52,9 @@ export default function Template({ data }) {
             </ul> */}
             <hr />
             <div dangerouslySetInnerHTML={{ __html: html }} />
+            <small>
+              <Link to="/events/">Back to all events</Link>
+            </small>
           </div>
           <div className="flex-item--md">
             <div className="padding--lg    bg--black banner-img--anarchy">

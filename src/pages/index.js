@@ -26,11 +26,13 @@ const IndexPage = ({ data }) => (
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <li className="bg--red   padding--lg">
             <h3>
-              {node.frontmatter.headline}
-              <small>
-                <br />
-                {node.frontmatter.subHeadline}
-              </small>
+              <Link to={node.fields.slug} className="anchor--light">
+                {node.frontmatter.headline}
+                <small>
+                  <br />
+                  {node.frontmatter.subHeadline}
+                </small>
+              </Link>
             </h3>
             <h4>
               <small>
@@ -45,6 +47,9 @@ const IndexPage = ({ data }) => (
           </li>
         ))}
       </ul>
+      <Link to="/events/" className="anchor--button-light">
+        All Events
+      </Link>
     </div>
     <div className="container    text--center    padding--lg" id="about">
       <h2>We stand against capitalism and the state</h2>
