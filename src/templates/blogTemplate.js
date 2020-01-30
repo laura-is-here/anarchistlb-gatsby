@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 export default function Template({ data }) {
   const { markdownRemark } = data // data.markdownRemark holds your post data
@@ -8,6 +9,7 @@ export default function Template({ data }) {
   if (!frontmatter.eventDate) {
     return (
       <Layout>
+        <SEO title={frontmatter.title} />
         <div className="flex-container    container-inner">
           <div className="flex-item--lg">
             <h1>
@@ -26,6 +28,7 @@ export default function Template({ data }) {
   } else {
     return (
       <Layout>
+        <SEO title={frontmatter.title} />
         <div className="flex-container    ">
           <div className="flex-item--lg   container-inner">
             <h1>

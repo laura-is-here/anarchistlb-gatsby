@@ -55,11 +55,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Long Beach Anarchist Collective`,
+        short_name: `Anarchist LB`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#ecf0f1`,
+        theme_color: `hsl(6, 83%, 36%)`,
         display: `minimal-ui`,
         icon: `src/assets/images/anarchy_symbol.png`, // This path is relative to the root of the site.
       },
