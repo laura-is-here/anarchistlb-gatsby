@@ -1,14 +1,54 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import { Global, css } from "@emotion/core"
+import styled from "@emotion/styled"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import anarchyBackdrop from "../assets/images/a-backdrop.png"
+
+const Container = styled.div`
+  margin: 3rem 4% 0;
+
+  @media screen and (min-width: 64rem) {
+    margin: 3rem 8% 0;
+  }
+
+  @media screen and (min-width: 85.375rem) {
+    margin: 3rem 16% 0;
+  }
+
+  @media screen and (min-width: 120rem) {
+    margin: 3rem 20% 0;
+  }
+`
+
+const backgroundImg = props =>
+  css`
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(${props.imgPath});
+  `
+
+const BannerImg = styled.div`
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--main-bg);
+  background-color: var(--dark-bg);
+  ${backgroundImg}
+  min-height: 70vh;
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+`
 
 const IndexPage = ({ data }) => (
-  <Layout className="">
+  <Layout>
     <SEO title="Home" />
-    <div className="banner-img banner-img--anarchy flex-column--center    text--center">
-      <div className="container">
+    <BannerImg imgPath={anarchyBackdrop}>
+      <Container>
         <h1 className="">
           For the spread of anarchist ideas & action in the Long Beach area.
         </h1>
@@ -18,8 +58,8 @@ const IndexPage = ({ data }) => (
         <a class="anchor--button-light" href="#events">
           View upcoming events
         </a>
-      </div>
-    </div>
+      </Container>
+    </BannerImg>
     <div id="events" className="text--center    bg--black   padding--lg">
       <h2>Upcoming Events</h2>
       <ul className="grid-container ul-no-bullets">
