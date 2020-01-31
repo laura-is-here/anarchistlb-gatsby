@@ -1,11 +1,58 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-import { Global, css } from "@emotion/core"
+import { css } from "@emotion/core"
 import styled from "@emotion/styled"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import anarchyBackdrop from "../assets/images/a-backdrop.png"
+
+const EventCardGrid = styled.ul`
+  display: grid;
+  grid-gap: 0.75rem;
+  grid-template-columns: 1fr;
+  list-style: none;
+  padding: 0;
+
+  @media screen and (min-width: 48rem) {
+    grid-template-columns: repeat(auto-fit, minmax(30vw, 1fr));
+  }
+`
+
+const EventCardDetails = styled.p`
+  line-height: 1.15;
+  letter-spacing: 0.05rem;
+  margin: 0;
+  font-family: Cambay;
+
+  &:first-child {
+    margin: 1.5rem 0 0.25rem;
+  }
+`
+
+const EventCard = styled.li`
+  padding: 1.5rem;
+  background-color: hsl(6, 83%, 45%);
+`
+
+const Button = styled.a`
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  color: ${props => (props.light ? "hsl(6,15%, 90%)" : "hsl(6, 15%, 10%)")};
+  background-color: ${props =>
+    props.primary ? "hsl(6, 83%, 45%)" : "transparent"};
+  border: 4px solid
+    ${props => (props.light ? "hsl(6, 15%, 90%)" : "hsl(6, 15%, 10%)")};
+  padding: ${props => (props.large ? "0.75rem 1.5rem" : "0.25rem 0.75rem")};
+
+  &:hover,
+  &:active {
+    background-color: ${props =>
+      props.light ? "hsl(6,15%, 90%)" : "hsl(6, 15%, 10%)"};
+    color: ${props => (props.light ? "hsl(6, 15%, 10%)" : "hsl(6,15%, 90%)")};
+  }
+`
 
 const Container = styled.div`
   margin: 3rem 4% 0;
@@ -52,19 +99,19 @@ const IndexPage = ({ data }) => (
         <h1 className="">
           For the spread of anarchist ideas & action in the Long Beach area.
         </h1>
-        <a class="anchor--button-light" href="#about">
+        <Button primary light href="#about">
           Get to know us
-        </a>
-        <a class="anchor--button-light" href="#events">
+        </Button>
+        <Button light href="#events">
           View upcoming events
-        </a>
+        </Button>
       </Container>
     </BannerImg>
-    <div id="events" className="text--center    bg--black   padding--lg">
+    <div id="events" className="bg--black   padding--lg">
       <h2>Upcoming Events</h2>
-      <ul className="grid-container ul-no-bullets">
+      <EventCardGrid>
         {data.allMarkdownRemark.edges.map(({ node }) => (
-          <li className="bg--red   padding--lg">
+          <EventCard>
             <h3>
               <Link to={node.fields.slug} className="anchor--light">
                 {node.frontmatter.headline}
@@ -74,19 +121,20 @@ const IndexPage = ({ data }) => (
                 </small>
               </Link>
             </h3>
-            <h4>
-              <small>
-                <br />
-                {node.frontmatter.eventDate}
-                <br />
-                {node.frontmatter.eventStart} - {node.frontmatter.eventEnd}
-                <br />
-                {node.frontmatter.eventLocation}
-              </small>
-            </h4>
-          </li>
+            <EventCardDetails>Posted: {node.frontmatter.date}</EventCardDetails>
+            <EventCardDetails>
+              <br />
+              {node.frontmatter.eventDate}
+              <br />
+              {node.frontmatter.eventStart} - {node.frontmatter.eventEnd}
+              <br />
+              {node.frontmatter.eventLocation}
+            </EventCardDetails>
+            <p>{node.excerpt}</p>
+            <Button light>Read more</Button>
+          </EventCard>
         ))}
-      </ul>
+      </EventCardGrid>
       <Link to="/events/" className="anchor--button-light">
         All Events
       </Link>
