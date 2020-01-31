@@ -140,7 +140,7 @@ const IndexPage = ({ data }) => (
         All Events
       </Link>
     </div>
-    <div className="container    text--center    padding--lg" id="about">
+    <Container className="text--center    padding--lg" id="about">
       <h2>We stand against capitalism and the state</h2>
       <p>
         Capitalism and the state work in symbiosis to oppress and rob
@@ -150,9 +150,9 @@ const IndexPage = ({ data }) => (
         there's always a boot on our neck ready to clamp down against any
         resistance.
       </p>
-    </div>
-    <div className="banner-img banner-img--fnb flex-column--center text--center">
-      <div class="container">
+    </Container>
+    <BannerImg>
+      <Container>
         <h2>Food, not bombs!</h2>
         <p>
           <strong>
@@ -160,12 +160,12 @@ const IndexPage = ({ data }) => (
             groceries with our community every fourth Sunday.
           </strong>
         </p>
-        <Link className="anchor--button-light" to="/food-not-bombs/">
+        <Button light to="/food-not-bombs/">
           Learn more!
-        </Link>
-      </div>
-    </div>
-    <div class="container    text--center    padding--lg">
+        </Button>
+      </Container>
+    </BannerImg>
+    <Container class="text--center    padding--lg">
       <h2 class="">We promote and engage in mutual aid with our community</h2>
       <p>
         As anarchists, we practice solidarity, not charity, by taking direct
@@ -177,9 +177,9 @@ const IndexPage = ({ data }) => (
         against one-sided, hierarchical charity or "rescue" efforts that do
         nothing to aid the liberation of all peoples.
       </p>
-    </div>
-    <div className="banner-img banner-img--zines    flex-column--center text--center">
-      <div className="container">
+    </Container>
+    <BannerImg>
+      <Container>
         <h2>Discussion Groups</h2>
         <p>
           <strong>
@@ -187,12 +187,12 @@ const IndexPage = ({ data }) => (
             articles, videos, & more.
           </strong>
         </p>
-        <Link className="anchor--button-light" to="/discussion-group/">
+        <Button light to="/discussion-group/">
           Join the discussion!
-        </Link>
-      </div>
-    </div>
-    <div className="container    text--center    padding--lg">
+        </Button>
+      </Container>
+    </BannerImg>
+    <Container className="text--center    padding--lg">
       <h2>We encourage the sharing of decentralized knowledge</h2>
       <p>
         Theory is important, and what better way to learn than by sharing
@@ -203,7 +203,7 @@ const IndexPage = ({ data }) => (
         The masses less need to be educated, and more need to be connected and
         encouraged to dream and struggle together.
       </p>
-    </div>
+    </Container>
   </Layout>
 )
 

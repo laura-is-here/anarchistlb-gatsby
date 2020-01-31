@@ -1,16 +1,17 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import { Global, css } from "@emotion/core"
+import { css } from "@emotion/core"
 import styled from "@emotion/styled"
 
 const Title = styled.p`
-  color: hsl(6, 5%, 90%);
+  color: hsl(6, 15%, 90%);
   text-decoration: none;
   letter-spacing: 0.05rem;
 `
 
 const Nav = styled.nav`
+  margin-left: auto;
   > ul {
     display: flex;
     flex-wrap: wrap;
@@ -37,13 +38,9 @@ const NavLink = styled.li`
 
 const Wrapper = styled.div`
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  background-color: var(--main-color);
-  color: #ecf0f1;
+  flex-flow: wrap;
+  background-color: hsl(6, 5%, 5%);
   padding: 0.5rem;
-  box-shadow: 0px 1px 5px hsla(6, 5%, 10%, 0.2),
-    0px 5px 10px hsla(6, 5%, 10%, 0.2);
 `
 
 const Header = ({ siteTitle, navLinks }) => (
