@@ -36,6 +36,7 @@ const EventCard = styled.li`
 `
 
 const Button = styled.a`
+  display: inline-block;
   text-align: center;
   font-weight: bold;
   text-decoration: none;

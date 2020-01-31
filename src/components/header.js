@@ -4,15 +4,10 @@ import React from "react"
 import { Global, css } from "@emotion/core"
 import styled from "@emotion/styled"
 
-const Title = styled.span`
-  font-family: Cambay;
-  font-size: 1.5rem;
+const Title = styled.p`
   color: hsl(6, 5%, 90%);
   text-decoration: none;
-
-  @media screen and (min-width: 768px) {
-    font-size: 2rem;
-  }
+  letter-spacing: 0.05rem;
 `
 
 const Nav = styled.nav`
@@ -25,18 +20,17 @@ const Nav = styled.nav`
 `
 
 const NavLink = styled.li`
+  margin: 0 0.25rem 0.5rem 0;
   > a {
     font-family: Cambay;
-    display: block;
     color: hsl(6, 5%, 90%);
     text-decoration: none;
     font-weight: bold;
-    padding: 0.5rem;
-    margin: 0.25rem;
+    padding: 0 0.5rem 0.5rem 0;
 
     &:hover,
     &:focus {
-      color: var(--main-font-color);
+      background-color: hsl(6, 83%, 45%);
     }
   }
 `
@@ -44,7 +38,6 @@ const NavLink = styled.li`
 const Wrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   justify-content: space-between;
   background-color: var(--main-color);
   color: #ecf0f1;
