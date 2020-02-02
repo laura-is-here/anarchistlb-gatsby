@@ -106,7 +106,7 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      filter: { frontmatter: { tags: { in: "events" }, date: {} } }
+      filter: { frontmatter: { tags: { in: "events" } } }
       limit: 2
       sort: { fields: frontmatter___date, order: DESC }
     ) {

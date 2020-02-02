@@ -140,7 +140,11 @@ const IndexPage = ({ data }) => (
 
 export const query = graphql`
   query {
-    allMarkdownRemark(filter: { frontmatter: { tags: { in: "events" } } }) {
+    allMarkdownRemark(
+      filter: { frontmatter: { tags: { in: "events" } } }
+      limit: 4
+      sort: { fields: frontmatter___date, order: DESC }
+    ) {
       edges {
         node {
           id

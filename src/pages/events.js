@@ -27,7 +27,7 @@ export default ({ data }) => {
     <Layout>
       <SEO title="Events" />
       <Container>
-        <h1>Upcoming Events</h1>
+        <h1>Events</h1>
         <EventCardGrid eventDetails={data.allMarkdownRemark} />
       </Container>
     </Layout>
@@ -36,7 +36,10 @@ export default ({ data }) => {
 
 export const query = graphql`
   query MyQuery {
-    allMarkdownRemark(filter: { frontmatter: { tags: { in: "events" } } }) {
+    allMarkdownRemark(
+      filter: { frontmatter: { tags: { in: "events" } } }
+      sort: { fields: frontmatter___date, order: DESC }
+    ) {
       edges {
         node {
           id
