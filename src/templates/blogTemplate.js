@@ -10,10 +10,15 @@ import SEO from "../components/seo"
 const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-start;
   margin: 0 4% 3rem;
 
   @media screen and (min-width: 85.375rem) {
     flex-wrap: nowrap;
+
+    > * + * {
+      margin: 1.5rem;
+    }
   }
 
   @media screen and (min-width: 120rem) {
@@ -28,7 +33,7 @@ export default function Template({ data }) {
       <Layout>
         <SEO title={frontmatter.title} />
         <Container>
-          <div className="padding--lg">
+          <div>
             <h1>
               {frontmatter.headline}
               <small>
@@ -39,10 +44,7 @@ export default function Template({ data }) {
             <small>{frontmatter.date}</small>
             <div dangerouslySetInnerHTML={{ __html: html }} />
           </div>
-          <EventCardGrid
-            eventDetails={data.allMarkdownRemark}
-            className="padding--lg"
-          />
+          <EventCardGrid eventDetails={data.allMarkdownRemark} />
         </Container>
       </Layout>
     )
@@ -51,7 +53,7 @@ export default function Template({ data }) {
       <Layout>
         <SEO title={frontmatter.title} />
         <Container>
-          <div className="padding--lg">
+          <div>
             <h1>
               {frontmatter.headline}
               <small>
@@ -75,10 +77,7 @@ export default function Template({ data }) {
               <Button>Back to all events</Button>
             </Link>
           </div>
-          <EventCardGrid
-            eventDetails={data.allMarkdownRemark}
-            className="padding--lg"
-          />
+          <EventCardGrid eventDetails={data.allMarkdownRemark} />
         </Container>
       </Layout>
     )
