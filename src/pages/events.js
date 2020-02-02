@@ -1,30 +1,35 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import styled from "@emotion/styled"
 
 import Layout from "../components/layout"
+import EventCardGrid from "../components/eventcardgrid"
 import SEO from "../components/seo"
+
+const Container = styled.div`
+  margin: 0 4% 3rem;
+
+  @media screen and (min-width: 64rem) {
+    margin: 0 6% 3rem;
+  }
+
+  @media screen and (min-width: 85.375rem) {
+    margin: 0 8% 3rem;
+  }
+
+  @media screen and (min-width: 120rem) {
+    margin: 0 12% 3rem;
+  }
+`
 
 export default ({ data }) => {
   return (
     <Layout>
       <SEO title="Events" />
-      <ul className="ul-no-bullets    grid-container">
-        {data.allMarkdownRemark.edges.map(({ node }) => (
-          <li key={node.id} className="padding--lg    bg--black">
-            <h2>
-              <Link className="anchor--light" to={node.fields.slug}>
-                {node.frontmatter.headline}
-                <small>
-                  <br />
-                  {node.frontmatter.subHeadline}
-                </small>
-              </Link>
-            </h2>
-            <small>Posted: {node.frontmatter.date}</small>
-            <p>{node.excerpt}</p>
-          </li>
-        ))}
-      </ul>
+      <Container>
+        <h1>Upcoming Events</h1>
+        <EventCardGrid eventDetails={data.allMarkdownRemark} />
+      </Container>
     </Layout>
   )
 }

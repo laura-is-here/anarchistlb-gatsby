@@ -1,7 +1,5 @@
 import { Link } from "gatsby"
 import React from "react"
-import footerStyles from "../styles/footer.module.scss"
-import { css } from "@emotion/core"
 import styled from "@emotion/styled"
 
 const Nav = styled.ul`

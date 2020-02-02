@@ -4,70 +4,26 @@ import { css } from "@emotion/core"
 import styled from "@emotion/styled"
 
 import Layout from "../components/layout"
+import EventCardGrid from "../components/eventcardgrid"
+import Button from "../components/button"
 import SEO from "../components/seo"
 import anarchyBackdrop from "../assets/images/a-backdrop.png"
-
-const EventCardGrid = styled.ul`
-  display: grid;
-  grid-gap: 0.75rem;
-  grid-template-columns: 1fr;
-  list-style: none;
-  padding: 0;
-
-  @media screen and (min-width: 48rem) {
-    grid-template-columns: repeat(auto-fit, minmax(30vw, 1fr));
-  }
-`
-
-const EventCardDetails = styled.p`
-  line-height: 1.15;
-  letter-spacing: 0.05rem;
-  margin: 0;
-  font-family: Cambay;
-
-  &:first-child {
-    margin: 1.5rem 0 0.25rem;
-  }
-`
-
-const EventCard = styled.li`
-  padding: 1.5rem;
-  background-color: hsl(6, 83%, 45%);
-`
-
-const Button = styled.a`
-  display: inline-block;
-  text-align: center;
-  font-weight: bold;
-  text-decoration: none;
-  color: ${props => (props.light ? "hsl(6,15%, 90%)" : "hsl(6, 15%, 10%)")};
-  background-color: ${props =>
-    props.primary ? "hsl(6, 83%, 45%)" : "transparent"};
-  border: 4px solid
-    ${props => (props.light ? "hsl(6, 15%, 90%)" : "hsl(6, 15%, 10%)")};
-  padding: ${props => (props.large ? "0.75rem 1.5rem" : "0.25rem 0.75rem")};
-
-  &:hover,
-  &:active {
-    background-color: ${props =>
-      props.light ? "hsl(6,15%, 90%)" : "hsl(6, 15%, 10%)"};
-    color: ${props => (props.light ? "hsl(6, 15%, 10%)" : "hsl(6,15%, 90%)")};
-  }
-`
+import zinesBackdrop from "../assets/images/zines.jpg"
+import foodBackdrop from "../assets/images/jakub-kapusnak-vnNFWKY7Tj4-unsplash.jpg"
 
 const Container = styled.div`
-  margin: 3rem 4% 0;
+  margin: 0 4% 3rem;
 
   @media screen and (min-width: 64rem) {
-    margin: 3rem 8% 0;
+    margin: 0 12% 3rem;
   }
 
   @media screen and (min-width: 85.375rem) {
-    margin: 3rem 16% 0;
+    margin: 0 20% 3rem;
   }
 
   @media screen and (min-width: 120rem) {
-    margin: 3rem 20% 0;
+    margin: 0 24% 3rem;
   }
 `
 
@@ -108,38 +64,6 @@ const IndexPage = ({ data }) => (
         </Button>
       </Container>
     </BannerImg>
-    <div id="events" className="bg--black   padding--lg">
-      <h2>Upcoming Events</h2>
-      <EventCardGrid>
-        {data.allMarkdownRemark.edges.map(({ node }) => (
-          <EventCard>
-            <h3>
-              <Link to={node.fields.slug} className="anchor--light">
-                {node.frontmatter.headline}
-                <small>
-                  <br />
-                  {node.frontmatter.subHeadline}
-                </small>
-              </Link>
-            </h3>
-            <EventCardDetails>Posted: {node.frontmatter.date}</EventCardDetails>
-            <EventCardDetails>
-              <br />
-              {node.frontmatter.eventDate}
-              <br />
-              {node.frontmatter.eventStart} - {node.frontmatter.eventEnd}
-              <br />
-              {node.frontmatter.eventLocation}
-            </EventCardDetails>
-            <p>{node.excerpt}</p>
-            <Button light>Read more</Button>
-          </EventCard>
-        ))}
-      </EventCardGrid>
-      <Link to="/events/" className="anchor--button-light">
-        All Events
-      </Link>
-    </div>
     <Container className="text--center    padding--lg" id="about">
       <h2>We stand against capitalism and the state</h2>
       <p>
@@ -151,7 +75,7 @@ const IndexPage = ({ data }) => (
         resistance.
       </p>
     </Container>
-    <BannerImg>
+    <BannerImg imgPath={foodBackdrop}>
       <Container>
         <h2>Food, not bombs!</h2>
         <p>
@@ -165,7 +89,7 @@ const IndexPage = ({ data }) => (
         </Button>
       </Container>
     </BannerImg>
-    <Container class="text--center    padding--lg">
+    <Container className="text--center    padding--lg">
       <h2 class="">We promote and engage in mutual aid with our community</h2>
       <p>
         As anarchists, we practice solidarity, not charity, by taking direct
@@ -178,7 +102,7 @@ const IndexPage = ({ data }) => (
         nothing to aid the liberation of all peoples.
       </p>
     </Container>
-    <BannerImg>
+    <BannerImg imgPath={zinesBackdrop}>
       <Container>
         <h2>Discussion Groups</h2>
         <p>
@@ -204,6 +128,13 @@ const IndexPage = ({ data }) => (
         encouraged to dream and struggle together.
       </p>
     </Container>
+    <div id="events" className="bg--black   padding--lg">
+      <h2>Upcoming Events</h2>
+      <EventCardGrid eventDetails={data.allMarkdownRemark} />
+      <Link to="/events/" className="anchor--button-light">
+        All Events
+      </Link>
+    </div>
   </Layout>
 )
 

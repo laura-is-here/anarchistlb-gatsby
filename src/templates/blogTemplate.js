@@ -1,7 +1,25 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import styled from "@emotion/styled"
+
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+
+const Container = styled.div`
+  margin: 0 4% 3rem;
+
+  @media screen and (min-width: 64rem) {
+    margin: 0 14% 3rem;
+  }
+
+  @media screen and (min-width: 85.375rem) {
+    margin: 0 20% 3rem;
+  }
+
+  @media screen and (min-width: 120rem) {
+    margin: 0 24% 3rem;
+  }
+`
 
 export default function Template({ data }) {
   const { markdownRemark } = data // data.markdownRemark holds your post data
@@ -10,37 +28,43 @@ export default function Template({ data }) {
     return (
       <Layout>
         <SEO title={frontmatter.title} />
-        <div className="flex-container    container-narrow">
-          <div className="flex-item--lg">
-            <h1>
-              {frontmatter.headline}
-              <small>
-                <br />
-                {frontmatter.subHeadline}
-              </small>
-            </h1>
-            <small>{frontmatter.date}</small>
-            <div dangerouslySetInnerHTML={{ __html: html }} />
-          </div>
-        </div>
+        <Container>
+          <h1>
+            {frontmatter.headline}
+            <small>
+              <br />
+              {frontmatter.subHeadline}
+            </small>
+          </h1>
+          <small>{frontmatter.date}</small>
+          <div dangerouslySetInnerHTML={{ __html: html }} />
+        </Container>
       </Layout>
     )
   } else {
     return (
       <Layout>
         <SEO title={frontmatter.title} />
-        <div className="flex-container    ">
-          <div className="flex-item--lg   container-inner">
-            <h1>
-              {frontmatter.headline}
-              <small>
-                <br />
-                {frontmatter.subHeadline}
-              </small>
-            </h1>
-            <hr />
-            <small>Posted: {frontmatter.date}</small>
-            {/* <ul className="ul-no-bullets    flex-container">
+        <Container>
+          <h1>
+            {frontmatter.headline}
+            <small>
+              <br />
+              {frontmatter.subHeadline}
+            </small>
+          </h1>
+          <small>Posted: {frontmatter.date}</small>
+          <div className="padding--lg    bg--black banner-img--anarchy">
+            <h2>Event Details</h2>
+            <ul className="ul-no-bullets    h3">
+              <li>Date: {frontmatter.eventDate}</li>
+              <li>
+                Time: {frontmatter.eventStart} - {frontmatter.eventEnd}
+              </li>
+              <li>Location: {frontmatter.eventLocation}</li>
+            </ul>
+          </div>
+          {/* <ul className="ul-no-bullets    flex-container">
               <li className="padding-right--md">
                 <small>Tags: </small>
               </li>
@@ -50,25 +74,11 @@ export default function Template({ data }) {
                 </li>
               ))}
             </ul> */}
-            <hr />
-            <div dangerouslySetInnerHTML={{ __html: html }} />
-            <small>
-              <Link to="/events/">Back to all events</Link>
-            </small>
-          </div>
-          <div className="flex-item--md">
-            <div className="padding--lg    bg--black banner-img--anarchy">
-              <h2>Event Details</h2>
-              <ul className="ul-no-bullets    h3">
-                <li>Date: {frontmatter.eventDate}</li>
-                <li>
-                  Time: {frontmatter.eventStart} - {frontmatter.eventEnd}
-                </li>
-                <li>Location: {frontmatter.eventLocation}</li>
-              </ul>
-            </div>
-          </div>
-        </div>
+          <div dangerouslySetInnerHTML={{ __html: html }} />
+          <small>
+            <Link to="/events/">Back to all events</Link>
+          </small>
+        </Container>
       </Layout>
     )
   }
