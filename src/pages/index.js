@@ -84,9 +84,9 @@ const IndexPage = ({ data }) => (
             groceries with our community every fourth Sunday.
           </strong>
         </p>
-        <Button light to="/food-not-bombs/">
-          Learn more!
-        </Button>
+        <Link to="/food-not-bombs/">
+          <Button light>Learn more!</Button>
+        </Link>
       </Container>
     </BannerImg>
     <Container className="text--center    padding--lg">
@@ -111,9 +111,9 @@ const IndexPage = ({ data }) => (
             articles, videos, & more.
           </strong>
         </p>
-        <Button light to="/discussion-group/">
-          Join the discussion!
-        </Button>
+        <Link to="/discussion-group/">
+          <Button light>Join the discussion!</Button>
+        </Link>
       </Container>
     </BannerImg>
     <Container className="text--center    padding--lg">
