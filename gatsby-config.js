@@ -66,7 +66,7 @@ module.exports = {
         short_name: `Anarchist LB`,
         start_url: `/`,
         background_color: `#ecf0f1`,
-        theme_color: `hsl(6, 83%, 36%)`,
+        theme_color: `hsl(6, 5%, 5%)`,
         display: `minimal-ui`,
         icon: `src/assets/images/anarchy_symbol.png`, // This path is relative to the root of the site.
       },
@@ -79,6 +79,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-emotion`,
+    `gatsby-plugin-transition-link`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,

@@ -12,6 +12,7 @@ const Button = styled.a`
   border: 4px solid
     ${props => (props.light ? "hsl(6, 15%, 90%)" : "hsl(6, 15%, 10%)")};
   padding: ${props => (props.large ? "0.75rem 1.5rem" : "0.25rem 0.75rem")};
+  margin: 0.25rem;
 
   &:hover,
   &:active {
