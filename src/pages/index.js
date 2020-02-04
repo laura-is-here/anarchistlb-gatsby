@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { Link, graphql, navigate } from "gatsby"
 import { css } from "@emotion/core"
 import styled from "@emotion/styled"
 
@@ -84,9 +84,16 @@ const IndexPage = ({ data }) => (
             groceries with our community every fourth Sunday.
           </strong>
         </p>
-        <Link to="/food-not-bombs/">
-          <Button light>Learn more!</Button>
-        </Link>
+        <Button
+          href="/food-not-bombs"
+          light
+          onClick={event => {
+            event.preventDefault()
+            navigate("/food-not-bombs/")
+          }}
+        >
+          Learn more!
+        </Button>
       </Container>
     </BannerImg>
     <Container className="text--center    padding--lg">
@@ -111,9 +118,17 @@ const IndexPage = ({ data }) => (
             articles, videos, & more.
           </strong>
         </p>
-        <Link to="/discussion-group/">
-          <Button light>Join the discussion!</Button>
-        </Link>
+        <Button
+          light
+          href="/discussion-group/"
+          light
+          onClick={event => {
+            event.preventDefault()
+            navigate("/discussion-group/")
+          }}
+        >
+          Join the discussion!
+        </Button>
       </Container>
     </BannerImg>
     <Container className="text--center    padding--lg">
@@ -131,9 +146,17 @@ const IndexPage = ({ data }) => (
     <div id="events" className="bg--black   padding--lg">
       <h2>Upcoming Events</h2>
       <EventCardGrid eventDetails={data.allMarkdownRemark} />
-      <Link to="/events/" className="anchor--button-light">
+      <Button
+        light
+        href="/events/"
+        light
+        onClick={event => {
+          event.preventDefault()
+          navigate("/events/")
+        }}
+      >
         All Events
-      </Link>
+      </Button>
     </div>
   </Layout>
 )

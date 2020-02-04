@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
 import styled from "@emotion/styled"
+import { navigate } from "gatsby"
 
 import Button from "../components/button"
 
@@ -40,11 +41,23 @@ const EventCard = styled.li`
   justify-content: space-between;
   color: hsl(6, 5%, 90%);
   background-color: hsl(6, 83%, 45%);
+  transition: 0.25s ease-in-out;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    transform: translateY(-0.75rem);
+  }
 `
 const EventCardGrid = ({ eventDetails }) => (
-  <EventCardList>
+  <EventCardList id="events">
     {eventDetails.edges.map(({ node }) => (
-      <EventCard>
+      <EventCard
+        onClick={event => {
+          event.preventDefault()
+          navigate(node.fields.slug)
+        }}
+      >
         <EventCardBody>
           <h3>
             <Link to={node.fields.slug} className="anchor--light">

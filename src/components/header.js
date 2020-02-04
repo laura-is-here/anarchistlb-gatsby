@@ -15,23 +15,26 @@ const Title = styled.p`
 `
 
 const Nav = styled.nav`
-  margin-left: auto;
   > ul {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
     padding: 0;
   }
+  @media screen and (min-width: 65rem) {
+    margin-left: auto;
+  }
 `
 
 const NavLink = styled.li`
-  margin: 0 0.25rem 0.5rem 0;
+  margin: 0 0.75rem 0.75rem 0;
   > a {
     font-family: Cambay;
     color: hsl(6, 5%, 90%);
     text-decoration: none;
     font-weight: bold;
-    padding: 0 0.5rem 0.5rem 0;
+    padding: 0 0.5rem 0 0;
+    border-bottom: 6px solid hsl(6, 5%, 90%);
 
     &:hover,
     &:focus {
@@ -43,7 +46,7 @@ const NavLink = styled.li`
 const Wrapper = styled.div`
   display: flex;
   flex-flow: wrap;
-  background-color: hsl(6, 5%, 5%);
+  background-color: var(--dark-bg);
   padding: 0.5rem;
 `
 
