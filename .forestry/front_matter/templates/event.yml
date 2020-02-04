@@ -1,0 +1,43 @@
+---
+label: Event
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: path
+  label: path
+- type: text
+  name: author
+  label: author
+- type: datetime
+  name: date
+  label: date
+- type: list
+  name: tags
+  label: tags
+- type: file
+  name: img
+  label: img
+- type: textarea
+  name: img-alt
+  label: img-alt
+- type: text
+  name: eventDate
+  label: eventDate
+- type: text
+  name: eventStart
+  label: eventStart
+- type: text
+  name: eventEnd
+  label: eventEnd
+- type: text
+  name: eventLocation
+  label: eventLocation
+- type: text
+  name: headline
+  label: headline
+- type: text
+  name: subHeadline
+  label: subHeadline
