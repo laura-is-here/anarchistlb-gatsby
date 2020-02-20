@@ -45,6 +45,8 @@ And
 
 Of course, we all know what they'll find.
 
+## Rally Against Police Violence
+
 Let's stand up for all those targeted and harassed by the police; let's stand against the LBPD's vice grip on our city. We will march and rally against the LBPD this Sunday, February 23rd. Rally to start 10:30am at Harvey Milk Park.
 
 Fuck the LBPD, and fuck the police.
