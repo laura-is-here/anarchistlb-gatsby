@@ -3,7 +3,10 @@ title: Fuck The LBPD
 path: "/events/2020-02-20-fuck-the-lbpd/"
 author: Long Beach Anarchist Collective
 date: 2020-02-20T20:00:00Z
-tags: []
+tags:
+- FTP
+- LBPD
+- events
 img: ''
 img-alt: ''
 eventDate: February 23rd
