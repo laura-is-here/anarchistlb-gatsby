@@ -19,15 +19,11 @@ subHeadline: Fight Back Against LBPD Violence
 ---
 Earlier this week, LBPD officers, one armed with a baton, beat a community member who was restrained and facedown in the street.
 
-A user on Twitter shared a video of the assault (content warning for police violence)
-
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">WE WANT ANSWERS!<br><br>This video was taken on 4th &amp; Atlantic today in Long Beach.<br><br>Is this what half our city budget goes to!? <a href="https://t.co/aDmb4euDnv">pic.twitter.com/aDmb4euDnv</a></p>&mdash; People&#39;s Revolutionary Party Long Beach (@PRP_LB) <a href="[https://twitter.com/PRP_LB/status/1229954805952466944?ref_src=twsrc%5Etfw](https://twitter.com/PRP_LB/status/1229954805952466944?ref_src=twsrc%5Etfw "https://twitter.com/PRP_LB/status/1229954805952466944?ref_src=twsrc%5Etfw")">February 19, 2020</a></blockquote>
-
-<script async src="[https://platform.twitter.com/widgets.js](https://twitter.com/PRP_LB/status/1229954805952466944?ref_src=twsrc%5Etfw "https://twitter.com/PRP_LB/status/1229954805952466944?ref_src=twsrc%5Etfw")" charset="utf-8"></script>
+[A user on Twitter shared a video of the assault (content warning for police violence)](https://twitter.com/PRP_LB/status/1229954805952466944?ref_src=twsrc%5Etfw)
 
 This is a call to action against the LBPD, against all police violence, and against the existence of policing.
 
-In Long Beach, the police are handed **48% of the city's general fund** by the city council and the mayor &mdash; and for what?
+In Long Beach, the police are handed **48% of the city's general fund** by the city council and the mayor — and for what?
 
 To "clean up" the streets by targeting and harassing the poor, unhoused, and people of color?
 
@@ -37,7 +33,7 @@ To protect developers with enough money to change the very face of our city whil
 
 The police are a white supremacist institution given free reign by city officials to make and enforce their own rules and standards of conduct.
 
-\[From a report on the incident by the Long Beach Post\]([https://lbpost.com/news/crime/video-baton-beating-resisting-carjack](https://lbpost.com/news/crime/video-baton-beating-resisting-carjack "https://lbpost.com/news/crime/video-baton-beating-resisting-carjack")):
+[From a report on the incident by the Long Beach Post](https://lbpost.com/news/crime/video-baton-beating-resisting-carjack)
 
 > According to the Long Beach police department’s policy, officers may use batons to defend themselves or to combat violently resisting suspects.
 >
