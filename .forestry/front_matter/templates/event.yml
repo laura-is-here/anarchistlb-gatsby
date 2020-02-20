@@ -41,3 +41,5 @@ fields:
 - type: text
   name: subHeadline
   label: subHeadline
+pages:
+- src/content/events/fuck-the-lbpd.md
