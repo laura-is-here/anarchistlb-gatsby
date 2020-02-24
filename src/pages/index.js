@@ -12,18 +12,18 @@ import zinesBackdrop from "../assets/images/zines.jpg"
 import foodBackdrop from "../assets/images/jakub-kapusnak-vnNFWKY7Tj4-unsplash.jpg"
 
 const Container = styled.div`
-  margin: 0 4% 3rem;
+  margin: 3rem 4% 3rem;
 
   @media screen and (min-width: 64rem) {
-    margin: 0 12% 3rem;
+    margin: 3rem 12% 3rem;
   }
 
   @media screen and (min-width: 85.375rem) {
-    margin: 0 20% 3rem;
+    margin: 3rem 20% 3rem;
   }
 
   @media screen and (min-width: 120rem) {
-    margin: 0 24% 3rem;
+    margin: 3rem 24% 3rem;
   }
 `
 
@@ -40,7 +40,7 @@ const BannerImg = styled.div`
   color: var(--main-bg);
   background-color: var(--dark-bg);
   ${backgroundImg}
-  min-height: 70vh;
+  min-height: 100vh;
   text-align: center;
   display: flex;
   flex-flow: column;
