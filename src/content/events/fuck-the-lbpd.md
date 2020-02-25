@@ -19,7 +19,7 @@ subHeadline: Fight Back Against LBPD Violence
 
 Earlier this week, LBPD officers, one armed with a baton, beat a community member who was restrained and facedown in the street.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">WE WANT ANSWERS!<br><br>This video was taken on 4th &amp; Atlantic today in Long Beach.<br><br>Is this what half our city budget goes to!? <a href="https://t.co/aDmb4euDnv">pic.twitter.com/aDmb4euDnv</a></p>&mdash; People&#39;s Revolutionary Party Long Beach (@PRP_LB) <a href="https://twitter.com/PRP_LB/status/1229954805952466944?ref_src=twsrc%5Etfw">February 19, 2020</a></blockquote>
+> WE WANT ANSWERS!<br><br>This video was taken on 4th &amp; Atlantic today in Long Beach.<br><br>Is this what half our city budget goes to!? <a href="https://t.co/aDmb4euDnv">pic.twitter.com/aDmb4euDnv</a></p>&mdash; People&#39;s Revolutionary Party Long Beach (\@PRP\_ LB) <a href="https://twitter.com/PRP\_LB/status/1229954805952466944?ref_src=twsrc%5Etfw">February 19, 2020</a>
 
 This is a call to action against the LBPD, against all police violence, and against the existence of policing.
 

@@ -22,7 +22,7 @@ Last week, LBPD officers, one armed with a baton, beat a community member who wa
 
 The person targeted was Eugene Martindale III, and, despite LBPD's insistence that they were faced with a violent individual attempting to steal vehicles in the area, Eugene's father has revealed that his son was undergoing a mental health crisis and was attempting to seek help from passerby.
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">This morning we were contacted by Mr Martindale’s father about <a href="https://twitter.com/LBPD?ref_src=twsrc%5Etfw">@LBPD</a>’s violent attack on his son. News flash LBPD ARE LIARS. Please retweet and keep watching for updates. <a href="https://t.co/JBF4D565PG">pic.twitter.com/JBF4D565PG</a></p>&mdash; Long Beach #FuckLBPD Anarkiddie Collective (@AnarchistLB) <a href="https://twitter.com/AnarchistLB/status/1232010829513412608?ref_src=twsrc%5Etfw">February 24, 2020</a></blockquote>
+> This morning we were contacted by Mr Martindale’s father about <a href="https://twitter.com/LBPD?ref_src=twsrc%5Etfw">@LBPD</a>’s violent attack on his son. News flash LBPD ARE LIARS. Please retweet and keep watching for updates. <a href="https://t.co/JBF4D565PG">pic.twitter.com/JBF4D565PG</a></p>&mdash; Long Beach #FuckLBPD Anarkiddie Collective (@AnarchistLB) <a href="https://twitter.com/AnarchistLB/status/1232010829513412608?ref_src=twsrc%5Etfw">February 24, 2020</a>
 
 ## LBPD has a history of violence against individuals experiencing mental health crises
 
