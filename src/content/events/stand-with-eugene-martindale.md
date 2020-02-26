@@ -39,7 +39,7 @@ Eugene's father has shared with us the details of his son's expected hearing dat
 - February 27th
 - 8:30am
 - Long Beach Superior Court, 275 Magnolia Ave
-- Department J
+- Department S01
 
 [Yesterday we marched](https://lbpost.com/news/anti-police-protest-cindy-allen), and on Thursday we are calling for all those committed to fighting back against the police to show up to Department J and stand with Eugene.
 
