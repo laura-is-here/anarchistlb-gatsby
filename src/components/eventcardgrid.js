@@ -69,12 +69,10 @@ const EventCardGrid = ({ eventDetails }) => (
             </Link>
           </h3>
           <EventCardDetails>
-            <strong>Date:</strong> {node.frontmatter.eventDate}
+            <strong>{node.frontmatter.eventDate}</strong> from{" "}
+            {node.frontmatter.eventStart} to {node.frontmatter.eventEnd}
             <br />
-            <strong>Time:</strong> {node.frontmatter.eventStart} -{" "}
-            {node.frontmatter.eventEnd}
-            <br />
-            <strong>Location:</strong> {node.frontmatter.eventLocation}
+            at <strong>{node.frontmatter.eventLocation}</strong>
             <br />
           </EventCardDetails>
           <p>{node.excerpt}</p>
