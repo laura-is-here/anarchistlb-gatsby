@@ -12,7 +12,7 @@ const BannerImg = styled.ul`
   list-style: none;
   color: var(--main-bg);
   background-color: var(--dark-bg);
-  padding: 1.5rem;
+  padding: 0.75rem;
   display: column;
   flex-wrap: wrap;
   font-weight: bold;
