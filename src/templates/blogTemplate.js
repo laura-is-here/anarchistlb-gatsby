@@ -16,7 +16,7 @@ const BannerImg = styled.ul`
   display: column;
   flex-wrap: wrap;
   font-weight: bold;
-  line-height: 1.25;
+  line-height: 1.35;
 `
 
 const Container = styled.div`
