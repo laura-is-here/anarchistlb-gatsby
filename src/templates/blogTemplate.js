@@ -8,20 +8,15 @@ import EventCardGrid from "../components/eventcardgrid"
 import SEO from "../components/seo"
 import anarchyBackdrop from "../assets/images/a-backdrop.png"
 
-const BannerImg = styled.div`
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+const BannerImg = styled.ul`
+  list-style: none;
   color: var(--main-bg);
   background-color: var(--dark-bg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url(${anarchyBackdrop});
-  text-align: center;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
+  padding: 1.5rem;
+  display: column;
+  flex-wrap: wrap;
   font-weight: bold;
+  line-height: 1.25;
 `
 
 const Container = styled.div`
@@ -83,14 +78,15 @@ export default function Template({ data }) {
             </h1>
             <small>Posted: {frontmatter.date}</small>
             <BannerImg>
-              <h2>Event Details</h2>
-              <ul className="ul-no-bullets    ">
-                <li>Date: {frontmatter.eventDate}</li>
-                <li>
-                  Time: {frontmatter.eventStart} - {frontmatter.eventEnd}
-                </li>
-                <li>Location: {frontmatter.eventLocation}</li>
-              </ul>
+              <li class="h2 bg--red padding-left--md">
+                {frontmatter.eventDate}
+              </li>
+              <li class="bg--red padding-left--md">
+                {frontmatter.eventStart} - {frontmatter.eventEnd}
+              </li>
+              <li class="h4 padding-left--md">
+                at {frontmatter.eventLocation}
+              </li>
             </BannerImg>
             <div dangerouslySetInnerHTML={{ __html: html }} />
             <Button
