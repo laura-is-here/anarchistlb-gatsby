@@ -10,7 +10,7 @@ tags:
   - events
 img: ""
 img-alt: ""
-eventDate: February 27rd
+eventDate: February 27th
 eventStart: 8:30am
 eventEnd: 10:30am
 eventLocation: Long Beach Superior Court
