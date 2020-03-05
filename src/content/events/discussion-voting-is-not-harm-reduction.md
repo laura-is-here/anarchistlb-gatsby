@@ -1,5 +1,5 @@
 ---
-title: "Dicussion: Voting is Not Harm Reduction"
+title: "Discussion: Voting is Not Harm Reduction"
 path: "/events/2020-03-04-dicussion-voting-is-not-harm-reduction/"
 author: Long Beach Anarchist Collective
 date: 2020-03-04T20:00:00Z

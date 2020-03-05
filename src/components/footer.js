@@ -40,6 +40,18 @@ const Wrapper = styled.div`
   }
 `
 
+const Quote = styled.div`
+  display: flex;
+  flex-direction: column;
+  background-color: var(--dark-bg);
+  color: #ecf0f1;
+  padding: 0.5rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+`
+
 const Footer = ({ navLinks, socialLinks }) => (
   <footer>
     <Wrapper>
