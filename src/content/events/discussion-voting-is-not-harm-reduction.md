@@ -30,4 +30,6 @@ Meanwhile, in Long Beach, voters in city council district 2 will have the choice
 
 Given the history of failed social democratic attemps at reformism through electoral strategies and the current reality which curtails the efforts of even the best and most well-meaning candidates, we will be discussing the article _[Voting is Not Harm Reduction](http://www.indigenousaction.org/voting-is-not-harm-reduction-an-indigenous-perspective/)_, which examines the contradictions in electoral strategies that seek reforms and how voting itself reinforces the domination of the ruling class through careful exclusion of certain groups (namely, the poor, incarcerated, undocumented, and indigenous) and perhaps _even more careful **inclusion**_ of other groups.
 
+We've chosen this text partially due to the indigenous background of its authors, as critiques of voting are often miscontrued as coming from a position of privilege and whiteness, or sometimes apathy and nihilism.
+
 We hope you'll join us for this discussion on Friday, March 13th at Page Against the Machine, 2714 E 4th St, here in Long Beach. We'll meet up at 6pm for some introductions and reading time and then begin our discussion.
