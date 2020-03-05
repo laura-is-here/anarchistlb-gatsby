@@ -45,7 +45,7 @@ const Quote = styled.div`
   flex-direction: column;
   background-color: var(--dark-bg);
   color: #ecf0f1;
-  padding: 0.5rem;
+  padding: 1.5rem;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -76,6 +76,18 @@ const Footer = ({ navLinks, socialLinks }) => (
         </Nav>
       </nav>
     </Wrapper>
+    <Quote>
+      <div class="container">
+        <a
+          href="http://www.indigenousaction.org/voting-is-not-harm-reduction-an-indigenous-perspective/"
+          class="anchor--light"
+        >
+          "If voting is the democratic participation in our own oppression,
+          voting as harm reduction is a politics that keeps us at the mercy of
+          our oppressors."
+        </a>
+      </div>
+    </Quote>
   </footer>
 )
 
