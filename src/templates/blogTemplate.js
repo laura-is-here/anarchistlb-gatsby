@@ -15,13 +15,14 @@ const BannerImg = styled.ul`
   background-color: var(--dark-bg);
   padding: 0 0 0.5rem;
   margin: 0;
-  display: column;
-  flex-wrap: wrap;
-  font-weight: bold;
   line-height: 1.35;
 
+  @media #{$mq-medium} {
+    max-width: 50%;
+  }
+
   > li {
-    padding: 0.25rem 1.5rem 0;
+    padding: 0.25rem 0.5rem 0;
   }
 `
 
@@ -83,11 +84,11 @@ export default function Template({ data }) {
               </small>
             </h1>
             <BannerImg>
-              <li class="h3 bg--red">{frontmatter.eventDate}</li>
+              <li class="h4 bg--red">{frontmatter.eventDate}</li>
               <li class="bg--red">
                 {frontmatter.eventStart}-{frontmatter.eventEnd}
               </li>
-              <li class="h4 ">at {frontmatter.eventLocation}</li>
+              <li class="">at {frontmatter.eventLocation}</li>
             </BannerImg>
             <small>Posted: {frontmatter.date}</small>
             <div dangerouslySetInnerHTML={{ __html: html }} />
