@@ -83,11 +83,11 @@ export default function Template({ data }) {
               </small>
             </h1>
             <BannerImg>
-              <li class="h2 bg--red">{frontmatter.eventDate}</li>
-              <li class="h4 bg--red">
+              <li class="h3 bg--red">{frontmatter.eventDate}</li>
+              <li class="bg--red">
                 {frontmatter.eventStart}-{frontmatter.eventEnd}
               </li>
-              <li class="h3 ">at {frontmatter.eventLocation}</li>
+              <li class="h4 ">at {frontmatter.eventLocation}</li>
             </BannerImg>
             <small>Posted: {frontmatter.date}</small>
             <div dangerouslySetInnerHTML={{ __html: html }} />
