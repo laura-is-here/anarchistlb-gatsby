@@ -13,7 +13,7 @@ const BannerImg = styled.ul`
   list-style: none;
   color: var(--main-bg);
   background-color: var(--dark-bg);
-  padding: 0.5rem 0;
+  padding: 0 0 0.5rem;
   margin: 0;
   display: column;
   flex-wrap: wrap;
@@ -83,8 +83,8 @@ export default function Template({ data }) {
               </small>
             </h1>
             <BannerImg>
-              <li class="h2 ">{frontmatter.eventDate}</li>
-              <li class="h4 ">
+              <li class="h2 bg--red">{frontmatter.eventDate}</li>
+              <li class="h4 bg--red">
                 {frontmatter.eventStart}-{frontmatter.eventEnd}
               </li>
               <li class="h3 ">at {frontmatter.eventLocation}</li>
