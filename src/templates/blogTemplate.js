@@ -78,11 +78,9 @@ export default function Template({ data }) {
               </small>
             </h1>
             <BannerImg>
-              <li class="h2 bg--red padding--lg">
-                {frontmatter.eventDate} |{" "}
-                <span class="h3">
-                  {frontmatter.eventStart}-{frontmatter.eventEnd}
-                </span>
+              <li class="h2 bg--red padding--lg">{frontmatter.eventDate}</li>
+              <li class="h3">
+                {frontmatter.eventStart}-{frontmatter.eventEnd}
               </li>
               <li class="h3 padding--lg">at {frontmatter.eventLocation}</li>
             </BannerImg>
