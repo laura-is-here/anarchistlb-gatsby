@@ -77,16 +77,16 @@ export default function Template({ data }) {
                 {frontmatter.subHeadline}
               </small>
             </h1>
-            <small>Posted: {frontmatter.date}</small>
             <BannerImg>
-              <li class="h2 bg--red padding-left--md">
-                {frontmatter.eventDate}
-              </li>
-              <li class="h4 bg--red padding-left--md">
-                {frontmatter.eventStart} - {frontmatter.eventEnd}
+              <li class="h2 bg--red padding--lg">
+                {frontmatter.eventDate} |{" "}
+                <span class="h3">
+                  {frontmatter.eventStart}-{frontmatter.eventEnd}
+                </span>
               </li>
               <li class="h2 padding--lg">at {frontmatter.eventLocation}</li>
             </BannerImg>
+            <small>Posted: {frontmatter.date}</small>
             <div dangerouslySetInnerHTML={{ __html: html }} />
             <Button
               href="/events/"
