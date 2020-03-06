@@ -9,15 +9,20 @@ import SEO from "../components/seo"
 import anarchyBackdrop from "../assets/images/a-backdrop.png"
 
 const BannerImg = styled.ul`
+  border-radius: 5px;
   list-style: none;
   color: var(--main-bg);
   background-color: var(--dark-bg);
-  padding: 0.5rem;
+  padding: 0.5rem 0;
   margin: 0;
   display: column;
   flex-wrap: wrap;
   font-weight: bold;
   line-height: 1.35;
+
+  > li {
+    padding: 0.25rem 1.5rem 0;
+  }
 `
 
 const Container = styled.div`
@@ -78,11 +83,11 @@ export default function Template({ data }) {
               </small>
             </h1>
             <BannerImg>
-              <li class="h2 bg--red padding--lg">{frontmatter.eventDate}</li>
-              <li class="h3">
+              <li class="h2 ">{frontmatter.eventDate}</li>
+              <li class="h4 ">
                 {frontmatter.eventStart}-{frontmatter.eventEnd}
               </li>
-              <li class="h3 padding--lg">at {frontmatter.eventLocation}</li>
+              <li class="h3 ">at {frontmatter.eventLocation}</li>
             </BannerImg>
             <small>Posted: {frontmatter.date}</small>
             <div dangerouslySetInnerHTML={{ __html: html }} />
