@@ -84,7 +84,7 @@ export default function Template({ data }) {
                   {frontmatter.eventStart}-{frontmatter.eventEnd}
                 </span>
               </li>
-              <li class="h2 padding--lg">at {frontmatter.eventLocation}</li>
+              <li class="h3 padding--lg">at {frontmatter.eventLocation}</li>
             </BannerImg>
             <small>Posted: {frontmatter.date}</small>
             <div dangerouslySetInnerHTML={{ __html: html }} />
