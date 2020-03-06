@@ -12,7 +12,8 @@ const BannerImg = styled.ul`
   list-style: none;
   color: var(--main-bg);
   background-color: var(--dark-bg);
-  padding: 0.75rem;
+  padding: 0.5rem;
+  margin: 0;
   display: column;
   flex-wrap: wrap;
   font-weight: bold;
@@ -81,12 +82,10 @@ export default function Template({ data }) {
               <li class="h2 bg--red padding-left--md">
                 {frontmatter.eventDate}
               </li>
-              <li class="bg--red padding-left--md">
+              <li class="h4 bg--red padding-left--md">
                 {frontmatter.eventStart} - {frontmatter.eventEnd}
               </li>
-              <li class="h4 padding-left--md">
-                at {frontmatter.eventLocation}
-              </li>
+              <li class="h2 padding--lg">at {frontmatter.eventLocation}</li>
             </BannerImg>
             <div dangerouslySetInnerHTML={{ __html: html }} />
             <Button
