@@ -63,7 +63,7 @@ Based off the letter in Tenants And Neighborhood Councils Organizing Guide above
 
 [Here's an external link to an online editor with the letter text](https://pad.riseup.net/p/r.9e507769566c52708c97dc0525c986cc)
 
-<iframe name="embed_readwrite" src="https://pad.riseup.net/p/r.fb719ef6ac3bc718a074655beac37728?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false" height="600"></iframe>
+<iframe name="embed_readwrite" src="https://pad.riseup.net/p/r.fb719ef6ac3bc718a074655beac37728?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false" height="600" width="100%"></iframe>
 
 ```
 Dear [Landlord],
