@@ -57,7 +57,11 @@ _If there is a local tenant's union or legal aid group in your area, check with 
 
 > Unstable housing is exacerbating this crisis. If tenants know that missing rent could result in eviction proceedings, they’ll be more likely to go to work with symptoms and risk getting others sick. Tenants forced to move face a higher risk of spreading and/or contracting the virus, along with difficulty securing new housing, renting moving trucks, hiring movers, or finding volunteers to help. It is our responsibility to protect each other. In the absence of compassionate leadership from our government, we must organize together to ensure our basic needs are met.
 
-### Sample Letter for Long Beach
+### Sample Letter for Long Beach Tenants
+
+Based off the letter in Tenants And Neighborhood Councils Organizing Guide above.
+
+[Link here for easy copying](https://privatebin.net/?e3ff2798f8de059f#8EemxhbWfL3FeeCin55av8cbXh4dGKHyq4Wgx1sAtEoo)
 
 ```
 Dear [Landlord],
