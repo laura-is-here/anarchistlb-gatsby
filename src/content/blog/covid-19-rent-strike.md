@@ -95,7 +95,3 @@ Signed,
 [your tenant's council]
 
 ```
-
-```
-
-```
