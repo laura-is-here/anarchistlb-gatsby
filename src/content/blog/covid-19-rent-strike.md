@@ -45,14 +45,14 @@ _Please note: the following resources may not have the most accurate information
 
 _If there is a local tenant's union or legal aid group in your area, check with them._
 
-- ### [The Tenants Will Win: TANC Pandemic Organizing Guide](https://docs.google.com/document/d/1osMMHmOn3nyhx3Or4HzKtRaeaRAyEDwnQRAtVDgt47c/edit) &mdash; by Bay Area group **[Tenants And Neighborhood Councils](https://baytanc.com/)**
+### [The Tenants Will Win: TANC Pandemic Organizing Guide](https://docs.google.com/document/d/1osMMHmOn3nyhx3Or4HzKtRaeaRAyEDwnQRAtVDgt47c/edit) &mdash; by Bay Area group **[Tenants And Neighborhood Councils](https://baytanc.com/)**
 
-  > COVID-19 is not only a health crisis, but an economic and political crisis too. The current crisis is largely due to government negligence and the inability for capitalism to meet our basic needs. We need our needs met first and foremost.
+> COVID-19 is not only a health crisis, but an economic and political crisis too. The current crisis is largely due to government negligence and the inability for capitalism to meet our basic needs. We need our needs met first and foremost.
 
-- ### [FOOD OR RENT? FOOD NOT RENT!](https://docs.google.com/document/d/165eYVkW13yzrES7q5ZZaWVFSLFYqYnP2RBzhyQSRIWM/edit) &mdash; A step-by-step guide to rent forgiveness for tenants by **[Los Angeles Tenants Union](https://latenantsunion.org/en/)**
+### [FOOD OR RENT? FOOD NOT RENT!](https://docs.google.com/document/d/165eYVkW13yzrES7q5ZZaWVFSLFYqYnP2RBzhyQSRIWM/edit) &mdash; A step-by-step guide to rent forgiveness for tenants by **[Los Angeles Tenants Union](https://latenantsunion.org/en/)**
 
-  > We do not know how long we will be out of work and confined to our homes. We do not trust the federal or state governments to provide the resources we need to survive. We recommend saving your rent money for basic necessities, food and medications. We need whatever money we have. We can’t eat the rent.
+> We do not know how long we will be out of work and confined to our homes. We do not trust the federal or state governments to provide the resources we need to survive. We recommend saving your rent money for basic necessities, food and medications. We need whatever money we have. We can’t eat the rent.
 
-- ### [COVID-19 Tenant Organizing Toolkit](https://docs.google.com/document/d/1sX0VYYXS0ygaQelcvfY2svhGE_z7Bv_rHHVwggNUfc9/edit) &mdash; by Chicago group **[Autonomous Tenants Union](https://twitter.com/AutonomousUnion)**
+### [COVID-19 Tenant Organizing Toolkit](https://docs.google.com/document/d/1sX0VYYXS0ygaQelcvfY2svhGE_z7Bv_rHHVwggNUfc9/edit) &mdash; by Chicago group **[Autonomous Tenants Union](https://twitter.com/AutonomousUnion)**
 
-  > Unstable housing is exacerbating this crisis. If tenants know that missing rent could result in eviction proceedings, they’ll be more likely to go to work with symptoms and risk getting others sick. Tenants forced to move face a higher risk of spreading and/or contracting the virus, along with difficulty securing new housing, renting moving trucks, hiring movers, or finding volunteers to help. It is our responsibility to protect each other. In the absence of compassionate leadership from our government, we must organize together to ensure our basic needs are met.
+> Unstable housing is exacerbating this crisis. If tenants know that missing rent could result in eviction proceedings, they’ll be more likely to go to work with symptoms and risk getting others sick. Tenants forced to move face a higher risk of spreading and/or contracting the virus, along with difficulty securing new housing, renting moving trucks, hiring movers, or finding volunteers to help. It is our responsibility to protect each other. In the absence of compassionate leadership from our government, we must organize together to ensure our basic needs are met.
