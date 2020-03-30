@@ -61,7 +61,7 @@ _If there is a local tenant's union or legal aid group in your area, check with 
 
 Based off the letter in Tenants And Neighborhood Councils Organizing Guide above.
 
-[Link here for easy copying](https://privatebin.net/?e3ff2798f8de059f#8EemxhbWfL3FeeCin55av8cbXh4dGKHyq4Wgx1sAtEoo)
+[Link here for easy copying](https://ghostbin.co/paste/6n5t6)
 
 ```
 Dear [Landlord],
