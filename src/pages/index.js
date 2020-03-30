@@ -1,10 +1,10 @@
 import React from "react"
-import { Link, graphql, navigate } from "gatsby"
+import { graphql, navigate } from "gatsby"
 import { css } from "@emotion/core"
 import styled from "@emotion/styled"
 
 import Layout from "../components/layout"
-import EventCardGrid from "../components/eventcardgrid"
+import CardGrid from "../components/cardgrid"
 import Button from "../components/button"
 import SEO from "../components/seo"
 import anarchyBackdrop from "../assets/images/a-backdrop.png"
@@ -121,7 +121,6 @@ const IndexPage = ({ data }) => (
         <Button
           light
           href="/discussion-group/"
-          light
           onClick={event => {
             event.preventDefault()
             navigate("/discussion-group/")
@@ -145,7 +144,7 @@ const IndexPage = ({ data }) => (
     </Container>
     <div id="events" className="bg--black   padding--lg">
       <h2>Upcoming Events</h2>
-      <EventCardGrid eventDetails={data.allMarkdownRemark} />
+      <CardGrid postDetails={data.allMarkdownRemark} />
       <Button
         light
         href="/events/"

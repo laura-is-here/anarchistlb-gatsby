@@ -1,12 +1,11 @@
 import React from "react"
-import { Link, graphql, navigate } from "gatsby"
+import { graphql, navigate } from "gatsby"
 import styled from "@emotion/styled"
 
 import Layout from "../components/layout"
 import Button from "../components/button"
-import EventCardGrid from "../components/eventcardgrid"
+import CardGrid from "../components/cardgrid"
 import SEO from "../components/seo"
-import anarchyBackdrop from "../assets/images/a-backdrop.png"
 
 const BannerImg = styled.ul`
   border-radius: 5px;
@@ -60,12 +59,12 @@ export default function Template({ data }) {
                 {frontmatter.subHeadline}
               </small>
             </h1>
-            <small>{frontmatter.date}</small>
+            <small>Posted on {frontmatter.date}</small>
             <div dangerouslySetInnerHTML={{ __html: html }} />
           </div>
           <div>
             <h2>More events:</h2>
-            <EventCardGrid eventDetails={data.allMarkdownRemark} />
+            <CardGrid postDetails={data.allMarkdownRemark} />
           </div>
         </Container>
       </Layout>
@@ -90,7 +89,7 @@ export default function Template({ data }) {
               </li>
               <li class="">at {frontmatter.eventLocation}</li>
             </BannerImg>
-            <small>Posted: {frontmatter.date}</small>
+            <small>Posted on {frontmatter.date}</small>
             <div dangerouslySetInnerHTML={{ __html: html }} />
             <Button
               href="/events/"
@@ -104,7 +103,7 @@ export default function Template({ data }) {
           </div>
           <div>
             <h2>More events:</h2>
-            <EventCardGrid eventDetails={data.allMarkdownRemark} />
+            <CardGrid postDetails={data.allMarkdownRemark} />
           </div>
         </Container>
       </Layout>

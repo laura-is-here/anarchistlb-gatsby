@@ -1,5 +1,5 @@
 ---
-title: "Discussion: Voting is Not Harm Reduction"
+title: "CANCELLED - Discussion: Voting is Not Harm Reduction"
 path: "/events/2020-03-04-dicussion-voting-is-not-harm-reduction/"
 author: Long Beach Anarchist Collective
 date: 2020-03-04T20:00:00Z
@@ -10,9 +10,9 @@ tags:
   - events
 img: ""
 img-alt: ""
-eventDate: March 13th
-eventStart: 6:00pm
-eventEnd: 8:00pm
+eventDate: Cancelled
+eventStart: Cancelled
+eventEnd:
 eventLocation: Page Against the Machine
 headline: "Discussion: Voting is Not Harm Reduction"
 subHeadline: null

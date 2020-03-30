@@ -3,9 +3,7 @@ import React from "react"
 import styled from "@emotion/styled"
 import { navigate } from "gatsby"
 
-import Button from "../components/button"
-
-const EventCardList = styled.ul`
+const CardList = styled.ul`
   display: grid;
   grid-gap: 0.75rem;
   grid-template-columns: 1fr;
@@ -17,25 +15,25 @@ const EventCardList = styled.ul`
   }
 `
 
-const EventCardBody = styled.div`
+const CardBody = styled.div`
   padding: 1.5rem;
 `
 
-const EventCardFooter = styled.div`
+const CardFooter = styled.div`
   background-color: hsl(6, 85%, 35%);
   padding: 0.75rem;
   display: flex;
   justify-content: space-between;
 `
 
-const EventCardDetails = styled.p`
+const CardDetails = styled.p`
   line-height: 1.25;
   letter-spacing: 0.05rem;
   font-family: Cambay;
   margin: 0.75rem 0 0;
 `
 
-const EventCard = styled.li`
+const Card = styled.li`
   display: flex;
   flex-flow: column;
   justify-content: space-between;
@@ -49,16 +47,17 @@ const EventCard = styled.li`
     transform: translateY(-0.75rem);
   }
 `
-const EventCardGrid = ({ eventDetails }) => (
-  <EventCardList id="events">
-    {eventDetails.edges.map(({ node }) => (
-      <EventCard
+
+const CardGrid = ({ postDetails }) => (
+  <CardList>
+    {postDetails.edges.map(({ node }) => (
+      <Card
         onClick={event => {
           event.preventDefault()
           navigate(node.fields.slug)
         }}
       >
-        <EventCardBody>
+        <CardBody>
           <h3>
             <Link to={node.fields.slug} className="anchor--light">
               {node.frontmatter.headline}
@@ -68,23 +67,23 @@ const EventCardGrid = ({ eventDetails }) => (
               </small>
             </Link>
           </h3>
-          <EventCardDetails>
+          <CardDetails>
             <strong>{node.frontmatter.eventDate}</strong> from{" "}
             {node.frontmatter.eventStart} to {node.frontmatter.eventEnd}
             <br />
             at <strong>{node.frontmatter.eventLocation}</strong>
             <br />
-          </EventCardDetails>
+          </CardDetails>
           <p>{node.excerpt}</p>
-        </EventCardBody>
-        <EventCardFooter>
-          <EventCardDetails>
+        </CardBody>
+        <CardFooter>
+          <CardDetails>
             <strong>Posted:</strong> {node.frontmatter.date}
-          </EventCardDetails>
-        </EventCardFooter>
-      </EventCard>
+          </CardDetails>
+        </CardFooter>
+      </Card>
     ))}
-  </EventCardList>
+  </CardList>
 )
 
-export default EventCardGrid
+export default CardGrid

@@ -17,6 +17,10 @@ module.exports = {
         name: "Discussion Group",
       },
       {
+        url: "/blog/",
+        name: "Blog",
+      },
+      {
         url: "/events/",
         name: "Events",
       },
@@ -50,13 +54,15 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: `gatsby-transformer-remark`,
       options: {
-        path: `${__dirname}/src/assets/images`,
-        name: `images`,
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+          },
+        ],
       },
     },
-    `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-twitter`,

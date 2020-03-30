@@ -33,7 +33,7 @@ const NavLink = styled.li`
     color: hsl(6, 5%, 90%);
     text-decoration: none;
     font-weight: bold;
-    padding: 0 0.5rem 0 0;
+    padding: 0 0.25rem;
     border-bottom: 6px solid hsl(6, 5%, 90%);
 
     &:hover,

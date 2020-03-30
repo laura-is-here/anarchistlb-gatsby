@@ -25,9 +25,9 @@ const Container = styled.div`
 export default ({ data }) => {
   return (
     <Layout>
-      <SEO title="Events" />
+      <SEO title="Blog" />
       <Container>
-        <h1>Events</h1>
+        <h1>Blog Posts</h1>
         <CardGrid postDetails={data.allMarkdownRemark} />
       </Container>
     </Layout>
@@ -35,9 +35,9 @@ export default ({ data }) => {
 }
 
 export const query = graphql`
-  query MyQuery {
+  query {
     allMarkdownRemark(
-      filter: { frontmatter: { tags: { in: "events" } } }
+      filter: { frontmatter: { tags: { in: "blog" } } }
       sort: { fields: frontmatter___date, order: DESC }
     ) {
       edges {
