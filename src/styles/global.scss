@@ -23,6 +23,19 @@ blockquote {
   padding: 0.25rem 0.75rem;
 }
 
+pre {
+  font-size: 1rem;
+  white-space: pre-wrap;
+  padding: 1.5rem;
+  background-color: lighten(#454545, 40%);
+  color: var(--main-bg);
+  line-height: 1.45;
+}
+
+code {
+  overflow: scroll;
+}
+
 fieldset {
   border: none;
   padding: 0;

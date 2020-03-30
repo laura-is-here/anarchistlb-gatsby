@@ -56,3 +56,36 @@ _If there is a local tenant's union or legal aid group in your area, check with 
 ### [COVID-19 Tenant Organizing Toolkit](https://docs.google.com/document/d/1sX0VYYXS0ygaQelcvfY2svhGE_z7Bv_rHHVwggNUfc9/edit) &mdash; by Chicago group **[Autonomous Tenants Union](https://twitter.com/AutonomousUnion)**
 
 > Unstable housing is exacerbating this crisis. If tenants know that missing rent could result in eviction proceedings, they’ll be more likely to go to work with symptoms and risk getting others sick. Tenants forced to move face a higher risk of spreading and/or contracting the virus, along with difficulty securing new housing, renting moving trucks, hiring movers, or finding volunteers to help. It is our responsibility to protect each other. In the absence of compassionate leadership from our government, we must organize together to ensure our basic needs are met.
+
+### Sample Letter for Long Beach
+
+```
+Dear [Landlord],
+
+We regret to inform you that, due to the COVID-19 pandemic emergency, many of us have lost income. We are trying to stay healthy and prevent others from getting sick during this public health crisis. An adequate response to this public health crisis means keeping people in their homes, confident that losses of income will not lead to harassment or eviction.
+
+We are taking extra precaution to ensure that all tenants can remain safe. In this spirit, we have formed a tenant’s council (also known as tenant’s association) so that we may represent our collective interests as your tenants.
+
+In addition to notifying you about the establishment of the tenant’s council, we are writing you to request:
+
+    A rent reduction of 60% until the health & economic crisis has abated.
+
+    No expectation of repayment of the reduced rent amount after we return to full rent payments.
+
+    [Don't be afraid to brainstorm your own demands!]
+
+
+We do not make these requests lightly. As you are aware, the State of California declared a state of emergency on March 4, 2020 in response to the pandemic COVID-19 has become. The number of cases testing positive has continued to rise exponentially by the day with no end in sight. As a result, many businesses have been forced to reduce normal business operations, cut hours/shifts, and/or require their employees to work from home. Most school districts in the state have also followed suit and closed their doors to curb the rapid spread of the virus.
+
+This past March 15 Governor Newsom took unprecedented action in ordering all bars, breweries, and wineries in the state to close, regardless of their size, for an indeterminate amount of time. The order also suggested restaurants cut their occupancies by 50% and transition to a take-out model. On March 16, 2020 LA County issued a "stay at home" order mandating all residents to stay at home & away from others through at least mid April (will probably be extended). The City of Long Beach issued an even more restrictive order on March 28 that effectively bans us from leaving our homes except to buy food, get medical care, or go to work at a job defined as “essential”.
+
+On March 25 the City of LB issued an emergency eviction moratorium related to COVID-19. It states that no rent is required to be paid through May 31 if a household has lost income due to the pandemic. The city has also worked out a deal with banks to stop mortgage payments. Our Mayor said this: “We’re just starting to see the economic impacts of COVID-19 on our residential and commercial tenants in Long Beach. The emergency ordinance enacted by the City Council should provide relief to those who are most vulnerable to eviction and possible homelessness during this difficult time.”
+
+Our households have lost significant income and entire jobs due to this crisis. We are taking all steps we can such as applying for unemployment, borrowing money, trying to find alternative work, etc. But the long & short of it is that we simply cannot afford to pay the entire amount of rent. This is why we are reaching out to you in good faith.
+
+Following this overwhelming situation, we hope you will do the right thing. Many of us are fearful for our health, let alone our livelihood. Because of the menacing health situation produced by this pandemic, we are prepared to defend our housing in our capacity as a Tenant’s Council. Your consideration and kindness is greatly appreciated during this larger global moment.
+
+Signed,
+
+[your tenant's council]
+```
