@@ -63,6 +63,7 @@ Based off the letter in Tenants And Neighborhood Councils Organizing Guide above
 
 [Here's an external link to an online editor with the letter text](https://pad.riseup.net/p/r.9e507769566c52708c97dc0525c986cc)
 
+<iframe name="embed_readwrite" src="https://pad.riseup.net/p/r.fb719ef6ac3bc718a074655beac37728?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false" ></iframe>
 ```
 Dear [Landlord],
 
@@ -78,10 +79,9 @@ In addition to notifying you about the establishment of the tenant’s council, 
 
     [Don't be afraid to brainstorm your own demands!]
 
-
 We do not make these requests lightly. As you are aware, the State of California declared a state of emergency on March 4, 2020 in response to the pandemic COVID-19. The number of cases testing positive has continued to rise exponentially by the day with no end in sight. As a result, many businesses have been forced to reduce normal business operations, cut hours/shifts, and/or require their employees to work from home. Most school districts in the state have also followed suit and closed their doors to curb the rapid spread of the virus.
 
-On March 15 Governor Newsom took unprecedented action in ordering all bars, breweries, and wineries in the state to close, regardless of their size, for an indeterminate amount of time. The order also suggested restaurants cut their occupancies by 50% and transition to a take-out model. The next day,LA County issued a "stay at home" order mandating all residents to remain at home and away from others through mid April--given the trajectory of events it is very likely this order will be extended. The City of Long Beach followed with a  more restrictive order on March 28 that effectively bans leaving our homes except to buy food, get medical care, or go to work at a job defined as “essential”.
+On March 15 Governor Newsom took unprecedented action in ordering all bars, breweries, and wineries in the state to close, regardless of their size, for an indeterminate amount of time. The order also suggested restaurants cut their occupancies by 50% and transition to a take-out model. The next day,LA County issued a "stay at home" order mandating all residents to remain at home and away from others through mid April--given the trajectory of events it is very likely this order will be extended. The City of Long Beach followed with a more restrictive order on March 28 that effectively bans leaving our homes except to buy food, get medical care, or go to work at a job defined as “essential”.
 
 On March 25 the City of LB issued an emergency eviction moratorium related to COVID-19. It states that no rent is required to be paid through May 31 if a household has lost income due to the pandemic. The city has also worked out a deal with banks to stop mortgage payments. Our Mayor said this: “We’re just starting to see the economic impacts of COVID-19 on our residential and commercial tenants in Long Beach. The emergency ordinance enacted by the City Council should provide relief to those who are most vulnerable to eviction and possible homelessness during this difficult time.”
 
@@ -92,4 +92,7 @@ Following this overwhelming situation, we hope you will do the right thing. Many
 Signed,
 
 [your tenant's council]
+
+```
+
 ```
