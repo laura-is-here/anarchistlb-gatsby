@@ -21,7 +21,7 @@ You will need:
 - Scissors or any craft knife
 - A pen
 - A bandana or face wrap
-- A disassembled​ [Filtrete 1500](https://low.es/2XnFe2T) or higher AC filter
+- A disassembled​ [Filtrete 1500](https://low.es/2XnFe2T) or higher AC filter **caution: some AC filters have fiberglass in them and are not safe to use. The one linked here is made of polyester. If you're not sure what kind yours is made of, just get the one linked to be safe**
 - **Print** [this sewing pattern](https://freesewing.org/fu-facemask-freesewing.org.a4.pdf)​ (use the small size one and disregard all the text we are going to simplify this a lot)
 
 _NB. Filtrete 1500 or greater is manufactured specifically to filter viruses, for this reason I think this is a far safer option than just wearing a bandana or other cotton masks. Your mileage may vary but these are what i'm wearing._
