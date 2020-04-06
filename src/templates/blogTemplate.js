@@ -59,7 +59,9 @@ export default function Template({ data }) {
                 {frontmatter.subHeadline}
               </small>
             </h1>
-            <small>Posted on {frontmatter.date}</small>
+            <small>
+              Shared by {frontmatter.author} on {frontmatter.date}
+            </small>
             <div dangerouslySetInnerHTML={{ __html: html }} />
           </div>
           <div>
