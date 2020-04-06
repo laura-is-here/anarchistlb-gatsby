@@ -1,6 +1,6 @@
 ---
 title: "COVID-19: Black Bloc Viral Mask Tutorial"
-author: Long Beach Anarchist Collective
+author: Local Anarchist Sewing Enthusiast
 date: 2020-04-05T20:00:00Z
 tags:
   - COVID-19
