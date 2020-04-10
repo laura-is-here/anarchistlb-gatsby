@@ -67,13 +67,15 @@ const CardGrid = ({ postDetails }) => (
               </small>
             </Link>
           </h3>
-          <CardDetails>
-            <strong>{node.frontmatter.eventDate}</strong> from{" "}
-            {node.frontmatter.eventStart} to {node.frontmatter.eventEnd}
-            <br />
-            at <strong>{node.frontmatter.eventLocation}</strong>
-            <br />
-          </CardDetails>
+          {node.frontmatter.eventDate && (
+            <CardDetails>
+              <strong>{node.frontmatter.eventDate}</strong> from{" "}
+              {node.frontmatter.eventStart} to {node.frontmatter.eventEnd}
+              <br />
+              at <strong>{node.frontmatter.eventLocation}</strong>
+              <br />
+            </CardDetails>
+          )}
           <p>{node.excerpt}</p>
         </CardBody>
         <CardFooter>

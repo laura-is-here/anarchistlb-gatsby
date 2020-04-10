@@ -1,7 +1,7 @@
 ---
-title: "COVID-19: Consider Keeping Your Rent"
+title: "UPDATE &mdash; COVID-19: Keep Your Rent!"
 author: Long Beach Anarchist Collective
-date: 2020-03-31T20:00:00Z
+date: 2020-04-10T20:00:00Z
 tags:
   - COVID-19
   - Coronavirus
@@ -9,9 +9,27 @@ tags:
   - blog
 img: ""
 img-alt: ""
-headline: "COVID-19 and Rent"
+headline: "UPDATE: COVID-19 and Rent"
 subHeadline: "Resources for successfully witholding rent in a time of crisis"
 ---
+
+## Update April 10th, 2020: [new directives issued April 6th](https://newsroom.courts.ca.gov/news/judicial-council-adopts-new-rules-to-lower-jail-population-suspend-evictions-and-foreclosures)
+
+On April 6th, 2020, the California Judicial Council adopted [new rules](https://caanet.org/app/uploads/2020/04/20-141-Adoption-of-Emergency-Rules-FINAL.pdf) to protect tenants.
+
+These rules **directly prevent tenants from being evicted for failure to pay rent.**
+
+Under the new rules, [courts are not allowed to start the eviction process](https://www.sfchronicle.com/news/amp/California-halts-tenant-evictions-statewide-15183200.php), except for cases that regard maintaining public health.
+
+If you can't pay rent, **don't pay rent,** and inform your landlord within at least 7 days of your rent due date that you can't pay. **You do not have to provide proof to your landlord that you can't pay.**
+
+With millions unemployed or underpaid due to the pandemic, and nearly a third of apartment renters unable to pay their rent currently, landlords understand that they're forcing tenants to choose between rent and other necessities like food or medicine.
+
+Expectations that tenants pay back any rent payments that are "missed" during this period are slowly eroding too, as landlords, politicians, and the courts accept the reality that the resulting economic crisis of this pandemic will make it virtually impossible for tenants to pay this amount back.
+
+Besides that, we should refuse outright to enter into debt to our landlords as the price for shelter that we are demanded to take in order to maintain the public health, and we should continually fight back against the commodification of housing that allows landlords to extract profits from tenants and push people out onto the streets, where they face even more danger.
+
+_This post has been updated with the latest information on California's response to the pandemic. Some of the below informaion may not be accurate as of April 10th, 2020._
 
 ![""](./cdc-jRI67r_u-Jg-unsplash.jpg)
 
