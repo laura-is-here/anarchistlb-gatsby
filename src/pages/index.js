@@ -9,7 +9,7 @@ import Button from "../components/button"
 import SEO from "../components/seo"
 import anarchyBackdrop from "../assets/images/a-backdrop.png"
 import zinesBackdrop from "../assets/images/zines.jpg"
-import foodBackdrop from "../assets/images/jakub-kapusnak-vnNFWKY7Tj4-unsplash.jpg"
+import foodBackdrop from "../assets/images/wagon-supplies.jpeg"
 
 const Container = styled.div`
   margin: 3rem 4% 3rem;
@@ -56,11 +56,28 @@ const IndexPage = ({ data }) => (
         <h1 className="">
           For the spread of anarchist ideas & action in the Long Beach area.
         </h1>
-        <Button primary light href="#about">
-          Get to know us
+        <div className="padding--lg">
+          <h2>
+            <a className="anchor--light" href="https://bit.ly/keep-your-rent">
+              Can't pay rent? Don't pay rent!
+            </a>
+          </h2>
+          <p>
+            A resource for tenants unwilling or unable to pay rent during the
+            COVID-19 pandemic in California.
+          </p>
+        </div>
+        <Button
+          primary
+          light
+          href="https://ko-fi.com/fnbinthelbc"
+          rel="noopener noreferer"
+          target="_blank"
+        >
+          Donate to Food Not Bombs LB
         </Button>
-        <Button light href="#events">
-          View upcoming events
+        <Button light href="#about">
+          Get to know us
         </Button>
       </Container>
     </BannerImg>
