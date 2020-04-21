@@ -67,14 +67,23 @@ const IndexPage = ({ data }) => (
             COVID-19 pandemic in California.
           </p>
         </div>
-        <Button
-          primary
-          light
-          href="https://ko-fi.com/fnbinthelbc"
-          rel="noopener noreferer"
-          target="_blank"
-        >
-          Donate to Food Not Bombs LB
+        <div className="padding--lg">
+          <h2>
+            <a className="anchor--light" href="https://ko-fi.com/fnbinthelbc">
+              Support Food Not Bombs LB
+            </a>
+          </h2>
+          <p>
+            We are currently accepting donations to redistribute to our unhoused
+            neighbors.{" "}
+            <a className="anchor--light" href="mailto:fnbinthelbc@riseup.net">
+              Contact us
+            </a>{" "}
+            to help out or follow the link above to donate!
+          </p>
+        </div>
+        <Button primary light href="/#events">
+          Check out some upcoming events
         </Button>
         <Button light href="#about">
           Get to know us
